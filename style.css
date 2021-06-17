@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    bottom: 40px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.absolute{
+    position: absolute;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+html, body{
+    height: 250px;
+    width: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.slide_1,.slide_2,.slide_3{
+    height: 250px;
+    width: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.slide_1{
+    background-image: url("bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.slide_2{
+    background-image: url("bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.slide_3{
+    background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/bg3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.teamA_flag,.teamB_flag{
+    height: 55px;
+    width: 55px;
+    /*background-size: 55px 55px;*/
+    /*background-repeat: no-repeat;*/
+    top: 100px;
+}
+
+
+.flag_animate{
+    animation: btos 2s linear infinite;
+}
+
+@keyframes btos {
+    0%,100%{transform: scale(0.9)}
+    50%{transform: scale(1)}
+}
+
+.teamA_flag{
+    /*background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/1.png");*/
+    left: 80px;
+}
+
+.teamB_flag{
+    /*background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/2.png");*/
+    right: 70px;
+    animation-direction: reverse;
+}
+
+.flag{
+    height: 55px;
+    width: 55px;
+}
+
+.click{
+    height: 30px;
+    width: 30px;
+    bottom: 70px;
+    left: 95px;
+     animation: lr 1s linear infinite;
+}
+
+@keyframes lr{
+    0%,100%{left: 95px;}
+    50%{left: 190px; }
+}
+
+.click_icon{
+    height: 30px;
+    width: 30px;
+}
+
+#vid{
+    height: 250px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    z-index: 98;
+}
+
+.vid-overlay{
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    z-index: 99;
+    bottom: 0;
+}
+
+.vid_full{
+    width: 300px;
+    height: 62px;
+    z-index: 101;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+}
+
+.link_text{
+    height: 60px;
+    width: 300px;
+    background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/link.png");
+    background-size: 100%;
+}
+
+.teamA_icon,.teamB_icon{
+    height: 35px;
+    width: 35px;
+    /*background-size: 35px 35px;*/
+    /*background-repeat: no-repeat;*/
+    bottom: 10px;
+}
+
+.teamA_icon{
+    /*background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/1.png");*/
+    left: 15px;
+}
+
+.teamB_icon{
+    /*background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/2.png");*/
+    right: 15px;
+}
+
+.icon{
+    height: 35px;
+    width: 35px;
+}
+
+.predict_box{
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    height: 20px;
+    bottom: 16px;
+    left: 75px;
+}
+.predict_box1,.predict_box2{
+	border-radius: 10px;
+	height: 20px;
+    color: white;
+    width: 50%;
+    bottom: 0px;
+}
+	
+
+.predict_box1{
+	/*width: 50px;*/
+    background-color: red;
+    text-align: left;
+    padding-left: 10px;
+    z-index: 115;
+    left: 0px;
+}
+
+
+.predict_box2{
+	/*width: 150px;*/
+    background-color: blue;
+    text-align: right;
+    padding-right: 10px;
+    right: 0px;
+}
