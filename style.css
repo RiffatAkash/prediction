@@ -53,7 +53,7 @@ html, body{
 }
 
 .slide_3{
-    background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/bg3.jpg");
+    background-image: url("https://ms.purplepatch.online/jarvis/berger/predict_video/images/bg3.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -77,12 +77,12 @@ html, body{
 }
 
 .teamA_flag{
-    /*background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/1.png");*/
+    /*background-image: url("https://ms.purplepatch.online/jarvis/berger/predict_video/images/1.png");*/
     left: 80px;
 }
 
 .teamB_flag{
-    /*background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/2.png");*/
+    /*background-image: url("https://ms.purplepatch.online/jarvis/berger/predict_video/images/2.png");*/
     right: 70px;
     animation-direction: reverse;
 }
@@ -138,7 +138,7 @@ html, body{
 .link_text{
     height: 60px;
     width: 300px;
-    background-image: url("//ms.purplepatch.online/jarvis/berger/predict_video/images/link.png");
+    background-image: url("https://ms.purplepatch.online/jarvis/berger/predict_video/images/link.png");
     background-size: 100%;
 }
 
